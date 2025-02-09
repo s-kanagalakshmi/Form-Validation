@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(182, 1, 182);
+    font-family: "Open Sans", sans-serif;
+
+}
+.formId{
+    border: 1px solid black;
+    padding: 20px;
+    width: 30%;
+    margin: auto;
+    position: absolute;
+    top: 15%;
+    left:30%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+
+    /* width:50%; */
+}
+h1{
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 40px;
+    text-align: center;
+}
+.fieldId{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.fieldId label{
+    display: inline-block;
+}
+.fieldId input[type="text"], 
+.fieldId input[type="email"], 
+.fieldId input[type="password"] {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    width: 70%;
+    padding: 10px;
+    outline-color:gray;
+}
+button{
+   
+    background-color:rgb(182, 1, 182);
+        border: 2px solid rgb(182, 1, 182);
+        border-radius: 4px;
+        color: #eee;
+        display: block;
+        width: 50%;
+        padding: 10px;
+        font-size: 16px;
+        font-family: inherit;
+        font-weight: bold;
+      
+}
+#errorName,#errorMail,#errorPass{
+    color:red
+}
