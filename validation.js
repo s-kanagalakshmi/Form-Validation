@@ -62,7 +62,6 @@ function submitForm(event) {
         errorPass.textContent = PASS_WARNING;
         isValid = false;
     }
-    submitButton.disabled = !isValid;
 
     if (isValid) {
         alert("Form submitted successfully!");
